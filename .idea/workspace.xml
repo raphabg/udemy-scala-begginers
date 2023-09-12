@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d71ba9a-523d-4570-a0e2-d968915cd8cf" name="Changes" comment="call by name vs call by value">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/DefaultArgs.scala" afterDir="false" />
+    <list default="true" id="6d71ba9a-523d-4570-a0e2-d968915cd8cf" name="Changes" comment="8. Default and Named Arguments">
       <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/StringOps.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Scala&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefaultArgs">
+  <component name="RunManager" selected="Application.StringOps">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
       <module name="udemy-scala-begginers" />
@@ -102,8 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.StringOps" />
+      <module name="udemy-scala-begginers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.Recursion" />
@@ -135,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694524959420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="8. Default and Named Arguments">
+      <option name="closed" value="true" />
+      <created>1694557560618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694557560618</updated>
+    </task>
+    <task id="LOCAL-00004" summary="8. Default and Named Arguments">
+      <option name="closed" value="true" />
+      <created>1694557595898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694557595898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +188,13 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="29" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="30" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="30" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -180,6 +216,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="call by name vs call by value" />
-    <option name="LAST_COMMIT_MESSAGE" value="call by name vs call by value" />
+    <MESSAGE value="8. Default and Named Arguments" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. Default and Named Arguments" />
   </component>
 </project>
