@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d71ba9a-523d-4570-a0e2-d968915cd8cf" name="Changes" comment="8. Default and Named Arguments">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/StringOps.scala" afterDir="false" />
+    <list default="true" id="6d71ba9a-523d-4570-a0e2-d968915cd8cf" name="Changes" comment="9. Smart Operations on Strings">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Scala&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringOps">
+  <component name="RunManager" selected="Application.OOBasics">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
       <module name="udemy-scala-begginers" />
@@ -81,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+      <module name="udemy-scala-begginers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.CBNvsCBV" />
@@ -164,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694557595898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="9. Smart Operations on Strings">
+      <option name="closed" value="true" />
+      <created>1694558357581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694558357581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +239,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="call by name vs call by value" />
     <MESSAGE value="8. Default and Named Arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. Default and Named Arguments" />
+    <MESSAGE value="9. Smart Operations on Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. Smart Operations on Strings" />
   </component>
 </project>
