@@ -20,6 +20,7 @@ object Recursion extends App {
   //factorial(5000)
 
   def anotherFactorial(n: Int): BigInt = {
+    @tailrec
     def factorialHelper(x: Int, accumulator: BigInt): BigInt = {
       if (x <= 1) accumulator
       else factorialHelper(x - 1, x * accumulator) // TAIL RECURSION
@@ -43,15 +44,22 @@ object Recursion extends App {
       n: Int,
       accumulator: String = ""
   ): String = {
-    val result = accumulator + string
-
-    if (n == 1) result
-    else concatenateRecursive(string, n - 1, result)
+    if (n <= 0) accumulator
+    else concatenateRecursive(string, n - 1, string + accumulator)
   }
 
   println(concatenateRecursive("a|", 7))
 
-  def isPrimeRecursive() = {}
+  def isPrime(n: Int): Boolean = {
+    @tailrec
+    def isPrimeTailrec(t: Int, isStillPrime: Boolean): Boolean = {
+      if (!isStillPrime) false
+      else if (t <= 1) true
+      else isPrimeTailrec(t - 1, n % t != 0 && isStillPrime)
+    }
+
+    isPrimeTailrec(n / 2, isStillPrime = true)
+  }
 
   @tailrec
   def fibonacciRecursive(
@@ -70,7 +78,7 @@ object Recursion extends App {
           current,
           recursionLevel + 1
         )
-    } else current;
+    } else current
   }
 
   println(fibonacciRecursive(20))
