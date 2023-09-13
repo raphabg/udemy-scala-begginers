@@ -8,8 +8,8 @@ object OOBasics extends App {
   person.greet()
 }
 
+// class parameters are NOT FIELDS, only with the word `val` before
 class Person(name: String, val age: Int) {
-  def this(name: String) = this(name, 0)
   //body
   val x = 2
 
@@ -20,6 +20,18 @@ class Person(name: String, val age: Int) {
 
   //overload
   def greet(): Unit = println(s"Hi, I am $name.")
+
+  // multiple constructors
+
+  def this(name: String) = this(name, 0)
+  def this() = this("John Doe")
 }
 
-// class parameters are NOT FIELDS
+/*
+ * Novel and a Writer
+ *
+ * Writer: first name, surname, yead
+ * - method fullname
+ *
+ * Novel:
+ * */
